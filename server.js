@@ -26,8 +26,8 @@ const roomManager = new (require('./game/RoomManager'))(io);
 io.on('connection', (socket) => {
     console.log('User connected:', socket.id);
 
-    socket.on('createRoom', ({ playerName }, callback) => {
-        const roomId = roomManager.createRoom(socket.id, playerName);
+    socket.on('createRoom', ({ playerName, settings }, callback) => {
+        const roomId = roomManager.createRoom(socket.id, playerName, settings);
         socket.join(roomId);
         callback({ roomId });
         console.log(`Room ${roomId} created by ${playerName}`);
@@ -51,7 +51,9 @@ io.on('connection', (socket) => {
             io.to(roomId).emit('gameStart', {
                 location: room.locations[0],
                 totalRounds: room.totalRounds,
-                currentRound: 1
+                currentRound: 1,
+                gameMode: room.gameMode,
+                timeLimit: room.timeLimit
             });
         }
     });
