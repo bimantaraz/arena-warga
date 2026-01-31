@@ -194,6 +194,23 @@ class RoomManager {
         });
     }
 
+    resetGame(roomId) {
+        const room = this.rooms.get(roomId);
+        if (!room) return null;
+
+        room.state = 'waiting';
+        room.currentRound = 0;
+        room.locations = [];
+        room.players.forEach(p => {
+            p.score = 0;
+            p.hp = 5000;
+            p.hasGuessed = false;
+            p.lastGuess = null;
+        });
+
+        return room;
+    }
+
     generateRoomId() {
         return Math.random().toString(36).substring(2, 8).toUpperCase();
     }

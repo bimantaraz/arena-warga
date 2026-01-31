@@ -1,29 +1,14 @@
 class LocationService {
     constructor() {
-        this.locations = [
-            // Monas, Jakarta
-            { id: 1, name: "Monas", lat: -6.175392, lng: 106.827153, category: ['all', 'java-bali', 'city'] },
-            // Candi Borobudur, Magelang
-            { id: 2, name: "Candi Borobudur", lat: -7.607873, lng: 110.203751, category: ['all', 'java-bali'] },
-            // Gedung Sate, Bandung
-            { id: 3, name: "Gedung Sate", lat: -6.902481, lng: 107.618810, category: ['all', 'java-bali', 'city'] },
-            // Jembatan Ampera, Palembang
-            { id: 4, name: "Jembatan Ampera", lat: -2.992015, lng: 104.760089, category: ['all', 'sumatera', 'city'] },
-            // Raja Ampat (Viewpoint)
-            { id: 5, name: "Piaynemo, Raja Ampat", lat: -0.565076, lng: 130.270920, category: ['all', 'extreme'] },
-            // Simpang Lima, Semarang
-            { id: 6, name: "Simpang Lima Semarang", lat: -6.991196, lng: 110.422891, category: ['all', 'java-bali', 'city'] },
-            // Tugu Yogyakarta
-            { id: 7, name: "Tugu Yogyakarta", lat: -7.782873, lng: 110.367073, category: ['all', 'java-bali', 'city'] },
-            // Nusa Penida, Bali
-            { id: 8, name: "Kelingking Beach", lat: -8.750694, lng: 115.474636, category: ['all', 'java-bali', 'extreme'] },
-            // Jam Gadang, Bukittinggi
-            { id: 9, name: "Jam Gadang", lat: -0.3055, lng: 100.3692, category: ['all', 'sumatera', 'city'] },
-            // Danau Toba
-            { id: 10, name: "Danau Toba", lat: 2.6136, lng: 98.6253, category: ['all', 'sumatera', 'extreme'] },
-            // Gunung Bromo
-            { id: 11, name: "Gunung Bromo", lat: -7.94249, lng: 112.95301, category: ['all', 'java-bali', 'extreme'] }
-        ];
+        try {
+            this.locations = require('./locations.json');
+            console.log(`Loaded ${this.locations.length} locations.`);
+        } catch (error) {
+            console.error("Failed to load locations.json, using fallback.", error);
+            this.locations = [
+                { id: 1, name: "Monas", lat: -6.175392, lng: 106.827153, category: ['all', 'java-bali', 'city'] }
+            ];
+        }
     }
 
     getRandomLocation(category = 'all') {

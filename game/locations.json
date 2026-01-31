@@ -1,0 +1,539 @@
+[
+    {
+        "id": 1,
+        "name": "Monumen Nasional (Monas), Jakarta",
+        "lat": -6.175392,
+        "lng": 106.827153,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Candi Borobudur, Magelang",
+        "lat": -7.607873,
+        "lng": 110.203751,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Candi Prambanan, Sleman",
+        "lat": -7.752021,
+        "lng": 110.491467,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Gedung Sate, Bandung",
+        "lat": -6.902481,
+        "lng": 107.618810,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Jalan Braga, Bandung",
+        "lat": -6.917464,
+        "lng": 107.609252,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Kawah Putih, Ciwidey",
+        "lat": -7.166204,
+        "lng": 107.402126,
+        "category": [
+            "all",
+            "java-bali",
+            "extreme"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Pantai Kuta, Bali",
+        "lat": -8.718462,
+        "lng": 115.168640,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Tanah Lot, Bali",
+        "lat": -8.621213,
+        "lng": 115.086807,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Garuda Wisnu Kencana (GWK), Bali",
+        "lat": -8.810574,
+        "lng": 115.166418,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Kelingking Beach, Nusa Penida",
+        "lat": -8.750694,
+        "lng": 115.474636,
+        "category": [
+            "all",
+            "java-bali",
+            "extreme"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Tugu Yogyakarta",
+        "lat": -7.782873,
+        "lng": 110.367073,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Jalan Malioboro, Yogyakarta",
+        "lat": -7.792644,
+        "lng": 110.365842,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Simpang Lima, Semarang",
+        "lat": -6.991196,
+        "lng": 110.422891,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Lawang Sewu, Semarang",
+        "lat": -6.983893,
+        "lng": 110.410976,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Gunung Bromo",
+        "lat": -7.942490,
+        "lng": 112.953010,
+        "category": [
+            "all",
+            "java-bali",
+            "extreme"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Kawah Ijen, Banyuwangi",
+        "lat": -8.058373,
+        "lng": 114.242550,
+        "category": [
+            "all",
+            "java-bali",
+            "extreme"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Jembatan Suramadu",
+        "lat": -7.187399,
+        "lng": 112.766324,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Tugu Pahlawan, Surabaya",
+        "lat": -7.245842,
+        "lng": 112.737827,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Jembatan Ampera, Palembang",
+        "lat": -2.992015,
+        "lng": 104.760089,
+        "category": [
+            "all",
+            "sumatera",
+            "city"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Jam Gadang, Bukittinggi",
+        "lat": -0.305500,
+        "lng": 100.369200,
+        "category": [
+            "all",
+            "sumatera",
+            "city"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Istana Maimun, Medan",
+        "lat": 3.575232,
+        "lng": 98.683884,
+        "category": [
+            "all",
+            "sumatera",
+            "city"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Danau Toba (Parapat)",
+        "lat": 2.671379,
+        "lng": 98.932824,
+        "category": [
+            "all",
+            "sumatera",
+            "extreme"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Masjid Raya Baiturrahman, Aceh",
+        "lat": 5.553655,
+        "lng": 95.317131,
+        "category": [
+            "all",
+            "sumatera",
+            "city"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Pantai Tanjung Tinggi, Belitung",
+        "lat": -2.569305,
+        "lng": 107.691763,
+        "category": [
+            "all",
+            "sumatera"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Jembatan Barelang, Batam",
+        "lat": 0.963471,
+        "lng": 104.032126,
+        "category": [
+            "all",
+            "sumatera"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Ngarai Sianok, Bukittinggi",
+        "lat": -0.306915,
+        "lng": 100.361529,
+        "category": [
+            "all",
+            "sumatera",
+            "extreme"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Piaynemo, Raja Ampat",
+        "lat": -0.565076,
+        "lng": 130.270920,
+        "category": [
+            "all",
+            "extreme"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Bukit Holbung, Samosir",
+        "lat": 2.531235,
+        "lng": 98.665427,
+        "category": [
+            "all",
+            "sumatera",
+            "extreme"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Pantai Losari, Makassar",
+        "lat": -5.142827,
+        "lng": 119.407519,
+        "category": [
+            "all",
+            "city"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Jembatan Youtefa, Jayapura",
+        "lat": -2.593672,
+        "lng": 140.702953,
+        "category": [
+            "all",
+            "extreme"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Tugu Khatulistiwa, Pontianak",
+        "lat": 0.000000,
+        "lng": 109.322300,
+        "category": [
+            "all",
+            "city"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Labuan Bajo (Pelabuhan)",
+        "lat": -8.490727,
+        "lng": 119.877083,
+        "category": [
+            "all",
+            "extreme"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Pulau Padar (Puncak)",
+        "lat": -8.653427,
+        "lng": 119.576019,
+        "category": [
+            "all",
+            "extreme"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Desa Wae Rebo",
+        "lat": -8.775336,
+        "lng": 120.291739,
+        "category": [
+            "all",
+            "extreme"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Ranu Kumbolo, Semeru",
+        "lat": -8.062083,
+        "lng": 112.924874,
+        "category": [
+            "all",
+            "java-bali",
+            "extreme"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Pantai Parangtritis, Yogyakarta",
+        "lat": -8.025287,
+        "lng": 110.334053,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Bundaran HI, Jakarta",
+        "lat": -6.195022,
+        "lng": 106.823023,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Gelora Bung Karno, Jakarta",
+        "lat": -6.218556,
+        "lng": 106.802116,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Kota Tua, Jakarta",
+        "lat": -6.134293,
+        "lng": 106.813088,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Pantai Pandawa, Bali",
+        "lat": -8.847190,
+        "lng": 115.191636,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Ubud Monkey Forest, Bali",
+        "lat": -8.519098,
+        "lng": 115.260840,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Gunung Tangkuban Perahu",
+        "lat": -6.759600,
+        "lng": 107.609710,
+        "category": [
+            "all",
+            "java-bali",
+            "extreme"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Farmhouse Lembang",
+        "lat": -6.832960,
+        "lng": 107.605739,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Masjid Agung Jawa Tengah, Semarang",
+        "lat": -6.984021,
+        "lng": 110.445970,
+        "category": [
+            "all",
+            "java-bali",
+            "city"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Pantai Padang Padang, Bali",
+        "lat": -8.810693,
+        "lng": 115.103756,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Benteng Rotterdam, Makassar",
+        "lat": -5.132621,
+        "lng": 119.405280,
+        "category": [
+            "all",
+            "city"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Pantai Tanjung Bira, Bulukumba",
+        "lat": -5.619623,
+        "lng": 120.457884,
+        "category": [
+            "all",
+            "extreme"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Bukit Teletubbies, Bromo",
+        "lat": -7.957582,
+        "lng": 112.969966,
+        "category": [
+            "all",
+            "java-bali",
+            "extreme"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Heha Sky View, Yogyakarta",
+        "lat": -7.849206,
+        "lng": 110.479538,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Jatim Park 3, Batu",
+        "lat": -7.896623,
+        "lng": 112.552808,
+        "category": [
+            "all",
+            "java-bali"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Tugu Nol Kilometer, Sabang",
+        "lat": 5.908581,
+        "lng": 95.295251,
+        "category": [
+            "all",
+            "sumatera",
+            "extreme"
+        ]
+    }
+]

@@ -29,8 +29,9 @@ io.on('connection', (socket) => {
     socket.on('createRoom', ({ playerName, settings }, callback) => {
         const roomId = roomManager.createRoom(socket.id, playerName, settings);
         socket.join(roomId);
-        callback({ roomId });
         console.log(`Room ${roomId} created by ${playerName}`);
+        const room = roomManager.rooms.get(roomId);
+        callback({ roomId, players: room.players });
     });
 
     socket.on('joinRoom', ({ roomId, playerName }, callback) => {
@@ -40,8 +41,8 @@ io.on('connection', (socket) => {
         } else {
             socket.join(roomId);
             io.to(roomId).emit('playerJoined', result.room.players);
-            callback({ success: true, room: result.room });
             console.log(`${playerName} joined room ${roomId}`);
+            callback({ success: true, players: result.room.players });
         }
     });
 
@@ -71,6 +72,13 @@ io.on('connection', (socket) => {
         // For simplicity, let any player trigger specific next round event if we want manual progression
         // Or RoomManager handles it.
         roomManager.startNextRound(roomId);
+    });
+
+    socket.on('resetGame', ({ roomId }) => {
+        const room = roomManager.resetGame(roomId);
+        if (room) {
+            io.to(roomId).emit('gameReset', room);
+        }
     });
 
     socket.on('disconnect', () => {

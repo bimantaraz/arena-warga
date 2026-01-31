@@ -1,15 +1,7 @@
 import React from 'react';
 
 function StreetView({ location }) {
-    if (!location) return <div className="street-view-placeholder">Waiting for location...</div>;
-
-    // Uses Google Maps Embed API in Street View mode.
-    // Note: This nominally requires an API Key. If it fails, we can fall back to a static map or image.
-    // We use the embed URL.
-
-    // Uses Google Maps "svembed" mode which is a known workaround for simple embedding without a complex flow,
-    // though official Embed API is recommended.
-    // Format: https://maps.google.com/maps?layer=c&cbll={lat},{lng}&cbp={heading},{pitch},{zoom}&output=svembed
+    if (!location) return <div className="bg-gray-900 text-white flex items-center justify-center h-full">Waiting for location...</div>;
 
     return (
         <div className="absolute inset-0 z-0 bg-gray-900">
