@@ -2,7 +2,8 @@
 
 **Arena Warga** adalah game tebak lokasi multiplayer berbasis web yang mengajak pemain menjelajahi sudut-sudut unik Indonesia melalui Google Street View. Tantang temanmu dalam adu ketajaman insting geografis!
 
-![Arena Warga Banner](https://via.placeholder.com/1200x500.png?text=Preview+Arena+Warga) *<!-- Ganti link ini dengan screenshot game asli nanti -->*
+<img width="1365" height="684" alt="Screenshot 2026-01-31 131245" src="https://github.com/user-attachments/assets/6238ee25-5510-4bff-9248-33ffebff951f" />
+
 
 ## 🎮 Fitur Utama
 
